@@ -1,0 +1,15 @@
+.content{
+    width: 90%;
+    margin: 1.4rem auto auto auto;
+}
+
+.tittle{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.tittle h1{
+    font-size: 2rem;
+    color: rgb(207, 206, 206);
+    font-weight: 500;
+}

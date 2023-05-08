@@ -2,9 +2,9 @@
     position: fixed;
     bottom: 0;
     background-color: black;
-    height: 50px;
+    height: 5%;
     font-size: 1rem;
 }
 span{
-    color: aliceblue;
+    color: rgb(249, 251, 252);
 }

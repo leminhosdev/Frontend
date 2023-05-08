@@ -1,0 +1,23 @@
+.container{
+    height: 85%;
+}
+i{
+    padding-right: .6rem;
+    color: white;
+}
+
+
+.content{
+    background-color: rgb(53, 52, 52);
+    color: rgb(255, 255, 255);
+    padding-left: 0.6rem;
+}
+
+.sidenavColor{
+    background-color: rgb(92, 92, 92);
+}
+
+
+span .mdc-list-item__primary-text{
+    color: rgb(26, 138, 236);
+}
