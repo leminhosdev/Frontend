@@ -31,4 +31,15 @@ export class CategoriaService {
       duration: 6000
     })
   }
+
+  findById(id: String): Observable<Categoria>{
+    const url = `${this.baseUrl}/categoria/${id}`
+    return this.http.get<Categoria>(url)
+
+  }
+
+  delete(id: String): Observable<void>{
+    const url = `${this.baseUrl}/categoria/${id}`
+    return this.http.delete<void>(url)
+  }
 }
