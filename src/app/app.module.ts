@@ -18,7 +18,11 @@ import { CategoriaReadComponent } from './components/views/categoria/categoria-r
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
-import
+import {FormsModule} from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 
 
@@ -46,7 +50,13 @@ import
     MatCardModule,
     MatTableModule,
     HttpClientModule,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatSnackBarModule,
+    
+    
     
   ],
   providers: [],
