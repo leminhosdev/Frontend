@@ -16,6 +16,9 @@ import {MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './components/views/home/home.component';
 import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
 import {MatTableModule} from '@angular/material/table';
+import {MatButtonModule} from '@angular/material/button';
+import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
+import
 
 
 
@@ -27,6 +30,7 @@ import {MatTableModule} from '@angular/material/table';
     NavComponent,
     HomeComponent,
     CategoriaReadComponent,
+    CategoriaCreateComponent,
     
     
     
@@ -41,7 +45,8 @@ import {MatTableModule} from '@angular/material/table';
     MatIconModule,
     MatCardModule,
     MatTableModule,
-    HttpClientModule
+    HttpClientModule,
+    MatButtonModule
     
   ],
   providers: [],
