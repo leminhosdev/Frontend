@@ -19,14 +19,23 @@ export class CategoriaCreateComponent{
     
     
   }
-  create():void {
-    this.service.create(this.categoria).subscribe((resposta) =>{
-      this.router.navigate(['categorias'])
-      this.service.mensagem('Categoria criada com sucesso!')
+  create(): void{
+    this.service.create(this.categoria).subscribe({
+      next: (resposta) => {
+      this.router.navigate(['categorias']);
+      this.service.mensagem('Categoria criada com sucesso!');
+    },error: (err) => {
       
-    }, err => {for(let i = 0; i < err.error.errors.lenght; i++){
-      this.service.mensagem(err.error.errors[i].menssage)
-    } })
+      for(let i = 0; i < err.error.errors?.length; i++){
+        this.service.mensagem(err.error.errors[i].message)
+      } 
+      
+     console.log(err)   
+    }})
+  }
+
+  cancelar(): void{
+    this.router.navigate(['categorias'])
   }
 }
 
