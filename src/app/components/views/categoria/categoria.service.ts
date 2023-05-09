@@ -42,4 +42,8 @@ export class CategoriaService {
     const url = `${this.baseUrl}/categoria/${id}`
     return this.http.delete<void>(url)
   }
+  update(categoria: Categoria): Observable<void>{
+    const url = `${this.baseUrl}/categoria/${categoria.id}`
+    return this.http.put<void>(url, categoria)
+  }
 }
