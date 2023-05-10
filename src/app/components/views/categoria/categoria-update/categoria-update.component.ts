@@ -39,7 +39,7 @@ export class CategoriaUpdateComponent {
       this.service.mensagem('Categoria  atualizada com sucesso!!')
       
     }, err => {
-      this.service.mensagem(.erroerrr.error)
+      this.service.mensagem('VAlide se todods os campos foram preenchidos corretamente')
     })
   }
   cancelar(): void{
