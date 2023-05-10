@@ -57,7 +57,7 @@ O projeto se trata de um protótipo, feito com a intenção de demonstrar conhec
 
 # Stay stuned for news, and follow me here and in social midias or if you want to contact me: 🙋‍♂️
 
-Linkedin :https://www.linkedin.com/in/lucas-lemos-b5879625b/
-instagram: https://www.instagram.com/lucas_lemosl/
-email: lucaslemos8294@gmail.com
+- Linkedin :https://www.linkedin.com/in/lucas-lemos-b5879625b/
+- instagram: https://www.instagram.com/lucas_lemosl/
+- email: lucaslemos8294@gmail.com
 
