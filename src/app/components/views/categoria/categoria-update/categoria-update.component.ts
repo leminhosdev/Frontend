@@ -36,10 +36,10 @@ export class CategoriaUpdateComponent {
     this.service.update(this.categoria).subscribe((resposta) => {
       
       this.router.navigate(['categorias'])
-      this.service.mensagem('Categoria  atualizada com sucesso!!')
+      this.service.mensagem('Serviço  atualizado com sucesso!!')
       
     }, err => {
-      this.service.mensagem('VAlide se todods os campos foram preenchidos corretamente')
+      this.service.mensagem('Valide se todos os campos foram preenchidos corretamente')
     })
   }
   cancelar(): void{

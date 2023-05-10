@@ -35,7 +35,7 @@ export class CategoriaDeleteComponent {
     this.service.delete(this.categoria.id!).subscribe((resposta) => {
       
       this.router.navigate(['categorias'])
-      this.service.mensagem('Categoria deletada com sucesso!!')
+      this.service.mensagem('Serviço excluído com sucesso!!')
       
     }, err => {
       this.service.mensagem(err.error.error)

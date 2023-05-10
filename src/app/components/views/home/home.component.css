@@ -32,6 +32,10 @@
     border-radius: 15px;
     top: 270px;
 }
+.tittle{
+    color: rgb(0, 0, 0);
+   
+}
 
 .botao:hover{
     background: #417fd6;
